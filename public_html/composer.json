@@ -29,10 +29,6 @@
 			}
 		},
 		{
-			"type" : "pear",
-			"url" : "http://pear.php.net"
-		},
-		{
 			"type" : "composer",
 			"url" : "https://packages.zendframework.com/"
 		}
@@ -40,8 +36,7 @@
 	
 	"require": {
 		"php" : ">=5.5.0",
-		//"smarty/smarty" : ">=3.1.7",
-		"pear-pear/HTTP_Request2" : "*",
+		"smarty/smarty" : ">=3.1.7",
 		"zendframework/zend-stdlib" : "2.2.*",
 		"zendframework/zend-db" : "2.2.*",
 		"zendframework/zend-ldap" : "2.2.*",
